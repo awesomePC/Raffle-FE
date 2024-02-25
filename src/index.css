@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Coode-Regular;
+  src: url(../src/assets/fonts/2x_fonts/2x-font-1.otf);
+}
+@font-face {
+  font-family: Coode-Semibold;
+  src: url(../src/assets/fonts/2x_fonts/2x-font-2.otf);
+}
+@font-face {
+  font-family: Coode-Medium;
+  src: url(../src/assets/fonts/2x_fonts/2x-font-3.otf);
+}
+@font-face {
+  font-family: Coode-bolder;
+  src: url(../src/assets/fonts/2x_fonts/2x-font-4.otf);
+}
+@font-face {
+  font-family: Coode-bold;
+  src: url(../src/assets/fonts/2x_fonts/2x-font-5.otf);
+}
+
+body {
+  font-family: "Coode-Regular";
+  background-color: black;
+}
